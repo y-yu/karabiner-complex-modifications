@@ -1,0 +1,51 @@
+
+{
+  "title": "Disable command+w (Dvorak)",
+  "rules": [
+    {
+      "description": "Disable command+w (Dvorak)",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "comma",
+            "modifiers": {
+              "mandatory": [
+                "left_command"
+              ],
+              "optional": [
+                "left_shift",
+                "right_shift"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "w"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "comma",
+            "modifiers": {
+              "mandatory": [
+                "right_command"
+              ],
+              "optional": [
+                "left_shift",
+                "right_shift"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "w"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
