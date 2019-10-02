@@ -1,0 +1,12 @@
+os: osx
+
+osx_image: xcode11
+
+language: generic
+
+install:
+  - brew cask install karabiner-elements
+
+script:
+  - ./test.sh
+
