@@ -65,7 +65,7 @@
         {
           "type": "basic",
           "from": {
-            "key_code": ";",
+            "key_code": "semicolon",
             "modifiers": {
               "mandatory": [
                 "control"
