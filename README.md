@@ -1,7 +1,7 @@
 Karabiner Complex Modifications
 ========================================
 
-[![Build Status](https://travis-ci.org/y-yu/karabiner-complex-modifications.svg?branch=master)](https://travis-ci.org/y-yu/karabiner-complex-modifications)
+[![Build Status](https://travis-ci.com/y-yu/karabiner-complex-modifications.svg?branch=master)](https://travis-ci.com/y-yu/karabiner-complex-modifications)
 
 ## Artifacts
 
