@@ -15,3 +15,8 @@ Karabiner Complex Modifications
     ```console
     $ open "karabiner://karabiner/assets/complex_modifications/import?url=https%3A%2F%2Fy-yu.github.io%2Fkarabiner-complex-modifications%2Fcomplex_modifications%2Femacs_key_bindings_dvorak.json"
     ```
+- no\_styled\_paste.json
+    
+    ```console
+    $ open "karabiner://karabiner/assets/complex_modifications/import?url=https%3A%2F%2Fy-yu.github.io%2Fkarabiner-complex-modifications%2Fcomplex_modifications%2Fno_styled_paste.json"
+    ```
