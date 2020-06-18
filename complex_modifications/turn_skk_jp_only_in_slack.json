@@ -26,7 +26,10 @@
             {
               "select_input_source": {
                 "input_source_id": "^jp\\.sourceforge\\.inputmethod\\.aquaskk\\.Hiragana$"
-              }
+              },
+              "modifiers": [
+                "left_control"
+              ]
             }
           ]
         }
