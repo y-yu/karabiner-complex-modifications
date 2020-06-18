@@ -1,11 +1,19 @@
 {
-  "title": "Paste witout the style is default",
+  "title": "Paste witout the style is default in Slack",
   "rules": [
     {
-      "description": "Paste without the style is default (Dvorak)",
+      "description": "Paste without the style is default in Slack (Dvorak)",
       "manipulators": [
         {
           "type": "basic",
+          "conditions": [
+            {
+              "bundle_identifiers": [
+                "^com\\.tinyspeck\\.slackmacgap$"
+              ],
+              "type": "frontmost_application_if"
+            }
+          ],    
           "from": {
             "key_code": "period",
             "modifiers": {
