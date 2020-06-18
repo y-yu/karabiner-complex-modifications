@@ -1,0 +1,36 @@
+{
+  "title": "Turn SKK to Japanese only when push Ctrl+J in Slack",
+  "rules": [
+    {
+      "description": "Turn SKK to Japanese only when push Ctrl+J in Slack (Dvorak)",
+      "manipulators": [
+        {
+          "type": "basic",
+          "conditions": [
+            {
+              "bundle_identifiers": [
+                "^com\\.tinyspeck\\.slackmacgap$"
+              ],
+              "type": "frontmost_application_if"
+            }
+          ],  
+          "from": {
+            "key_code": "c",
+            "modifiers": {
+              "mandatory": [
+                "control"
+              ]
+            }
+          },
+          "to": [
+            {
+              "select_input_source": {
+                "input_source_id": "^jp\\.sourceforge\\.inputmethod\\.aquaskk\\.Hiragana$"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
