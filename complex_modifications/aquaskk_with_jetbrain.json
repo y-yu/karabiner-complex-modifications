@@ -12,6 +12,14 @@
                 "^com\\.jetbrains\\..*"
               ],
               "type": "frontmost_application_if"
+            },
+            {
+              "type": "input_source_if",
+              "input_sources": [
+                {
+                  "input_source_id": "^jp\\.sourceforge\\.inputmethod\\.aquaskk\\.(Hiragana|Katakana|HalfWidthKana)$"
+                }
+              ]
             }
           ],
           "from": {
@@ -46,6 +54,14 @@
                 "^com\\.jetbrains\\..*"
               ],
               "type": "frontmost_application_if"
+            },
+            {
+              "type": "input_source_if",
+              "input_sources": [
+                {
+                  "input_source_id": "^jp\\.sourceforge\\.inputmethod\\.aquaskk\\.(Hiragana|Katakana|HalfWidthKana)$"
+                }
+              ]
             }
           ],
           "from": {
@@ -72,6 +88,14 @@
                 "^com\\.jetbrains\\..*"
               ],
               "type": "frontmost_application_if"
+            },
+            {
+              "type": "input_source_if",
+              "input_sources": [
+                {
+                  "input_source_id": "^jp\\.sourceforge\\.inputmethod\\.aquaskk\\.(Hiragana|Katakana|HalfWidthKana)$"
+                }
+              ]
             }
           ],
           "from": {
@@ -106,6 +130,14 @@
                 "^com\\.jetbrains\\..*"
               ],
               "type": "frontmost_application_if"
+            },
+            {
+              "type": "input_source_if",
+              "input_sources": [
+                {
+                  "input_source_id": "^jp\\.sourceforge\\.inputmethod\\.aquaskk\\.(Hiragana|Katakana|HalfWidthKana)$"
+                }
+              ]
             }
           ],
           "from": {
@@ -132,6 +164,14 @@
                 "^com\\.jetbrains\\..*"
               ],
               "type": "frontmost_application_if"
+            },
+            {
+              "type": "input_source_if",
+              "input_sources": [
+                {
+                  "input_source_id": "^jp\\.sourceforge\\.inputmethod\\.aquaskk\\.(Hiragana|Katakana|HalfWidthKana)$"
+                }
+              ]
             }
           ],
           "from": {
@@ -166,6 +206,14 @@
                 "^com\\.jetbrains\\..*"
               ],
               "type": "frontmost_application_if"
+            },
+            {
+              "type": "input_source_if",
+              "input_sources": [
+                {
+                  "input_source_id": "^jp\\.sourceforge\\.inputmethod\\.aquaskk\\.(Hiragana|Katakana|HalfWidthKana)$"
+                }
+              ]
             }
           ],
           "from": {
@@ -192,6 +240,14 @@
                 "^com\\.jetbrains\\..*"
               ],
               "type": "frontmost_application_if"
+            },
+            {
+              "type": "input_source_if",
+              "input_sources": [
+                {
+                  "input_source_id": "^jp\\.sourceforge\\.inputmethod\\.aquaskk\\.(Hiragana|Katakana|HalfWidthKana)$"
+                }
+              ]
             }
           ],
           "from": {
@@ -226,6 +282,14 @@
                 "^com\\.jetbrains\\..*"
               ],
               "type": "frontmost_application_if"
+            },
+            {
+              "type": "input_source_if",
+              "input_sources": [
+                {
+                  "input_source_id": "^jp\\.sourceforge\\.inputmethod\\.aquaskk\\.(Hiragana|Katakana|HalfWidthKana)$"
+                }
+              ]
             }
           ],
           "from": {
