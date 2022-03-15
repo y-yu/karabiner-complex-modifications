@@ -1,7 +1,7 @@
 Karabiner Complex Modifications
 ========================================
 
-[![Build Status](https://travis-ci.com/y-yu/karabiner-complex-modifications.svg?branch=master)](https://travis-ci.com/y-yu/karabiner-complex-modifications)
+[![CI](https://github.com/y-yu/karabiner-complex-modifications/actions/workflows/ci.yml/badge.svg)](https://github.com/y-yu/karabiner-complex-modifications/actions/workflows/ci.yml)
 
 ## Artifacts
 
