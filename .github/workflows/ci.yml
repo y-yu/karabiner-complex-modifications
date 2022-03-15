@@ -1,0 +1,35 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches:
+      - master
+
+jobs:
+  build-test:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Get Homebrew cache directory
+        id: brew-cache
+        run: echo "::set-output name=dir::$(brew --cache)/downloads"
+
+      - name: Update Homebrew
+        run: |
+          brew update --preinstall
+
+      - name: Configure Homebrew cache
+        uses: actions/cache@v2
+        with:
+          path: ${{ steps.brew-cache.outputs.dir }}
+          key: brew-${{ hashFiles('.github/workflows/ci.yml') }}
+          restore-keys: brew-
+    
+      - name: Install Karabiner-Elements
+        run: |
+          env HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask karabiner-elements
+
+      - name: Test
+        run: ./test.sh
