@@ -189,7 +189,7 @@
                 "^org\\.macosforge\\.xquartz\\.X11$",
                 "^org\\.macports\\.X11$",
                 "^com\\.microsoft\\.VSCode$",
-                "^org\\.alacritty\\.Alacritty$"
+                "^org\\.alacritty$"
               ]
             }
           ]
