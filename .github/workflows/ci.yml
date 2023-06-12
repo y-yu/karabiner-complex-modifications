@@ -17,7 +17,7 @@ jobs:
 
       - name: Get Homebrew cache directory
         id: brew-cache
-        run: echo "::set-output name=dir::$(brew --cache)/downloads"
+        run: echo "dir=$(brew --cache)/downloads" >> $GITHUB_OUTPUT
 
       - name: Update Homebrew
         run: |
