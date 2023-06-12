@@ -8,9 +8,12 @@ on:
 
 jobs:
   build-test:
-    runs-on: macos-latest
+    strategy:
+      matrix:
+        os: [ "macos-13", "macos-12" ]
+    runs-on: ${{ matrix.os }}
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
 
       - name: Get Homebrew cache directory
         id: brew-cache
@@ -21,7 +24,7 @@ jobs:
           brew update --preinstall
 
       - name: Configure Homebrew cache
-        uses: actions/cache@v2
+        uses: actions/cache@v3
         with:
           path: ${{ steps.brew-cache.outputs.dir }}
           key: brew-${{ hashFiles('.github/workflows/ci.yml') }}
