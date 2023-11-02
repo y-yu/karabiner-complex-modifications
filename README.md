@@ -30,3 +30,9 @@ Karabiner Complex Modifications
     ```console
     open "karabiner://karabiner/assets/complex_modifications/import?url=https%3A%2F%2Fy-yu.github.io%2Fkarabiner-complex-modifications%2Fcomplex_modifications%2Faquaskk_with_jetbrain.json"
     ```
+
+- disable\_command\_m\_dvorak.json
+    
+    ```console
+    open "karabiner://karabiner/assets/complex_modifications/import?url=https%3A%2F%2Fy-yu.github.io%2Fkarabiner-complex-modifications%2Fcomplex_modifications%2Fdisable_command_m_dvorak.json"
+    ```

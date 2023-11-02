@@ -1,0 +1,30 @@
+{
+    "title": "Disable command+m (Dvorak)",
+    "rules": [
+      {
+        "description": "Disable command+m (Dvorak)",
+        "manipulators": [
+          {
+            "type": "basic",
+            "from": {
+              "key_code": "m",
+              "modifiers": {
+                "mandatory": [
+                  "command"
+                ],
+                "optional": [
+                  "left_shift",
+                  "right_shift"
+                ]
+              }
+            },
+            "to": [
+              {
+                "key_code": "m"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
