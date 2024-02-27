@@ -1,5 +1,5 @@
 {
-  "title": "Turn SKK to Japanese only when push Ctrl+J in Slack",
+  "title": "Turn AquaSKK to Japanese only when push Ctrl+J in Slack",
   "rules": [
     {
       "description": "Turn SKK to Japanese only when push Ctrl+J in Slack (Dvorak)",
