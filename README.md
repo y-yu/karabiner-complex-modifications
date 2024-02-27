@@ -20,17 +20,26 @@ Karabiner Complex Modifications
     ```console
     open "karabiner://karabiner/assets/complex_modifications/import?url=https%3A%2F%2Fy-yu.github.io%2Fkarabiner-complex-modifications%2Fcomplex_modifications%2Fno_styled_paste.json"
     ```
-- turn\_skk\_jp\_only\_in\_slack.json
+- turn\_aquaskk\_jp\_only\_in\_slack.json
     
     ```console
-    open "karabiner://karabiner/assets/complex_modifications/import?url=https%3A%2F%2Fy-yu.github.io%2Fkarabiner-complex-modifications%2Fcomplex_modifications%2Fturn_skk_jp_only_in_slack.json"
+    open "karabiner://karabiner/assets/complex_modifications/import?url=https%3A%2F%2Fy-yu.github.io%2Fkarabiner-complex-modifications%2Fcomplex_modifications%2Fturn_aquaskk_jp_only_in_slack.json"
+    ```
+- turn\_macskk\_jp\_only\_in\_slack.json
+    
+    ```console
+    open "karabiner://karabiner/assets/complex_modifications/import?url=https%3A%2F%2Fy-yu.github.io%2Fkarabiner-complex-modifications%2Fcomplex_modifications%2Fturn_macskk_jp_only_in_slack.json"
     ```
 - aquaskk\_with\_jetbrain.json
     
     ```console
     open "karabiner://karabiner/assets/complex_modifications/import?url=https%3A%2F%2Fy-yu.github.io%2Fkarabiner-complex-modifications%2Fcomplex_modifications%2Faquaskk_with_jetbrain.json"
     ```
-
+- macskk\_with\_jetbrain.json
+    
+    ```console
+    open "karabiner://karabiner/assets/complex_modifications/import?url=https%3A%2F%2Fy-yu.github.io%2Fkarabiner-complex-modifications%2Fcomplex_modifications%2Fmacskk_with_jetbrain.json"
+    ```
 - disable\_command\_m\_dvorak.json
     
     ```console
