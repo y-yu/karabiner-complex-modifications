@@ -1,0 +1,161 @@
+{
+  "title": "AquaSKK for Jetbrain",
+  "rules": [
+    {
+      "description": "Change input source to full width ascii mode by L (Dvorak)",
+      "manipulators": [
+        {
+          "type": "basic",
+          "conditions": [
+            {
+              "bundle_identifiers": [
+                "^com\\.jetbrains\\..*"
+              ],
+              "type": "frontmost_application_if"
+            },
+            {
+              "type": "input_source_if",
+              "input_sources": [
+                {
+                  "input_source_id": "^net\\.mtgto\\.inputmethod\\.macSKK\\.(ascii|hiragana|katakana|hankaku|eisu)$"
+                }
+              ]
+            }
+          ],
+          "from": {
+            "key_code": "p",
+            "modifiers": {
+              "mandatory": [
+                "left_shift",
+                "right_shift"
+              ]
+            }
+          },
+          "to": [
+            {
+              "select_input_source": {
+                "language": "ja",
+                "input_source_id": "net.mtgto.inputmethod.macSKK.eisu",
+                "input_mode_id": "com.apple.inputmethod.Japanese.FullWidthRoman"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Change input source to ascii mode by l (Dvorak)",
+      "manipulators": [
+        {
+          "type": "basic",
+          "conditions": [
+            {
+              "bundle_identifiers": [
+                "^com\\.jetbrains\\..*"
+              ],
+              "type": "frontmost_application_if"
+            },
+            {
+              "type": "input_source_if",
+              "input_sources": [
+                {
+                  "input_source_id": "^net\\.mtgto\\.inputmethod\\.macSKK\\.(ascii|hiragana|katakana|hankaku|eisu)$"
+                }
+              ]
+            }
+          ],
+          "from": {
+            "key_code": "p"
+          },
+          "to": [
+            {
+              "select_input_source": {
+                "language": "en",
+                "input_source_id": "net.mtgto.inputmethod.macSKK.ascii",
+                "input_mode_id": "com.apple.inputmethod.Roman"               
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Change input source to half width katakana mode by Q (Dvorak)",
+      "manipulators": [
+        {
+          "type": "basic",
+          "conditions": [
+            {
+              "bundle_identifiers": [
+                "^com\\.jetbrains\\..*"
+              ],
+              "type": "frontmost_application_if"
+            },
+            {
+              "type": "input_source_if",
+              "input_sources": [
+                {
+                  "input_source_id": "^net\\.mtgto\\.inputmethod\\.macSKK\\.(ascii|hiragana|katakana|hankaku|eisu)$"
+                }
+              ]
+            }
+          ],
+          "from": {
+            "key_code": "x",
+            "modifiers": {
+              "mandatory": [
+                "left_shift",
+                "right_shift"
+              ]
+            }
+          },
+          "to": [
+            {
+              "select_input_source": {
+                "language": "ja",
+                "input_source_id": "net.mtgto.inputmethod.macSKK.hankaku",
+                "input_mode_id": "com.apple.inputmethod.Japanese.HalfWidthKana"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Change input source to katakana mode by q (Dvorak)",
+      "manipulators": [
+        {
+          "type": "basic",
+          "conditions": [
+            {
+              "bundle_identifiers": [
+                "^com\\.jetbrains\\..*"
+              ],
+              "type": "frontmost_application_if"
+            },
+            {
+              "type": "input_source_if",
+              "input_sources": [
+                {
+                  "input_source_id": "^net\\.mtgto\\.inputmethod\\.macSKK\\.(ascii|hiragana|katakana|hankaku|eisu)$"
+                }
+              ]
+            }
+          ],
+          "from": {
+            "key_code": "x"
+          },
+          "to": [
+            {
+              "select_input_source": {
+                "language": "ja",
+                "input_source_id": "net.mtgto.inputmethod.macSKK.katakana",
+                "input_mode_id": "com.apple.inputmethod.Japanese.Katakana"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
