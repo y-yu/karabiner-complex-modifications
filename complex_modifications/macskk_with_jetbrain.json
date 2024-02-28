@@ -17,7 +17,7 @@
               "type": "input_source_if",
               "input_sources": [
                 {
-                  "input_source_id": "^net\\.mtgto\\.inputmethod\\.macSKK\\.(ascii|hiragana|katakana|hankaku|eisu)$"
+                  "input_source_id": "^net\\.mtgto\\.inputmethod\\.macSKK\\.(ascii|hiragana|katakana|hankaku)$"
                 }
               ]
             }
@@ -59,7 +59,7 @@
               "type": "input_source_if",
               "input_sources": [
                 {
-                  "input_source_id": "^net\\.mtgto\\.inputmethod\\.macSKK\\.(ascii|hiragana|katakana|hankaku|eisu)$"
+                  "input_source_id": "^net\\.mtgto\\.inputmethod\\.macSKK\\.(hiragana|katakana|hankaku|eisu)$"
                 }
               ]
             }
@@ -95,7 +95,7 @@
               "type": "input_source_if",
               "input_sources": [
                 {
-                  "input_source_id": "^net\\.mtgto\\.inputmethod\\.macSKK\\.(ascii|hiragana|katakana|hankaku|eisu)$"
+                  "input_source_id": "^net\\.mtgto\\.inputmethod\\.macSKK\\.(ascii|hiragana|katakana|eisu)$"
                 }
               ]
             }
@@ -137,7 +137,7 @@
               "type": "input_source_if",
               "input_sources": [
                 {
-                  "input_source_id": "^net\\.mtgto\\.inputmethod\\.macSKK\\.(ascii|hiragana|katakana|hankaku|eisu)$"
+                  "input_source_id": "^net\\.mtgto\\.inputmethod\\.macSKK\\.(ascii|hiragana|hankaku|eisu)$"
                 }
               ]
             }
