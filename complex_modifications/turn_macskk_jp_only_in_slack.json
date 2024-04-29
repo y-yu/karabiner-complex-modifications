@@ -32,12 +32,7 @@
           },
           "to": [
             {
-              "select_input_source": {
-                "input_source_id": "net.mtgto.inputmethod.macSKK.hiragana"
-              },
-              "modifiers": [
-                "left_control"
-              ]
+              "key_code": "japanese_kana"
             }
           ]
         }
