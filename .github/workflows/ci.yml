@@ -13,7 +13,7 @@ jobs:
         os: [ "macos-latest" ]
     runs-on: ${{ matrix.os }}
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v7
 
       - name: Get Homebrew cache directory
         id: brew-cache
