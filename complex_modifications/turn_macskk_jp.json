@@ -1,15 +1,16 @@
 {
-  "title": "Turn macSKK to Japanese only when push Ctrl+J in Slack",
+  "title": "Turn macSKK to Japanese when push Ctrl+J",
   "rules": [
     {
-      "description": "Turn SKK to Japanese only when push Ctrl+J in Slack (Dvorak)",
+      "description": "Turn SKK to Japanese when push Ctrl+J　(Dvorak)",
       "manipulators": [
         {
           "type": "basic",
           "conditions": [
             {
               "bundle_identifiers": [
-                "^com\\.tinyspeck\\.slackmacgap$"
+                "^com\\.tinyspeck\\.slackmacgap$",
+                "^dev\\.zed\\.Zed$"
               ],
               "type": "frontmost_application_if"
             },
@@ -21,7 +22,7 @@
                 }
               ]
             }
-          ],  
+          ],
           "from": {
             "key_code": "c",
             "modifiers": {

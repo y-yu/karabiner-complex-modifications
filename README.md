@@ -25,10 +25,10 @@ Karabiner Complex Modifications
     ```console
     open "karabiner://karabiner/assets/complex_modifications/import?url=https%3A%2F%2Fy-yu.github.io%2Fkarabiner-complex-modifications%2Fcomplex_modifications%2Fturn_aquaskk_jp_only_in_slack.json"
     ```
-- turn\_macskk\_jp\_only\_in\_slack.json
+- turn\_macskk\_jp.json
     
     ```console
-    open "karabiner://karabiner/assets/complex_modifications/import?url=https%3A%2F%2Fy-yu.github.io%2Fkarabiner-complex-modifications%2Fcomplex_modifications%2Fturn_macskk_jp_only_in_slack.json"
+    open "karabiner://karabiner/assets/complex_modifications/import?url=https%3A%2F%2Fy-yu.github.io%2Fkarabiner-complex-modifications%2Fcomplex_modifications%2Fturn_macskk_jp.json"
     ```
 - aquaskk\_with\_jetbrain.json
     
