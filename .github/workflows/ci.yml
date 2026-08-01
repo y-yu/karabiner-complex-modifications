@@ -10,7 +10,7 @@ jobs:
   build-test:
     strategy:
       matrix:
-        os: [ "macos-13", "macos-12" ]
+        os: [ "macos-latest" ]
     runs-on: ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v3
@@ -20,8 +20,7 @@ jobs:
         run: echo "dir=$(brew --cache)/downloads" >> $GITHUB_OUTPUT
 
       - name: Update Homebrew
-        run: |
-          brew update --preinstall
+        run: brew update
 
       - name: Configure Homebrew cache
         uses: actions/cache@v3
@@ -29,7 +28,7 @@ jobs:
           path: ${{ steps.brew-cache.outputs.dir }}
           key: brew-${{ hashFiles('.github/workflows/ci.yml') }}
           restore-keys: brew-
-    
+
       - name: Install Karabiner-Elements
         run: |
           env HOMEBREW_NO_AUTO_UPDATE=1 brew install --cask karabiner-elements
