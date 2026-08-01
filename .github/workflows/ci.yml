@@ -23,7 +23,7 @@ jobs:
         run: brew update
 
       - name: Configure Homebrew cache
-        uses: actions/cache@v3
+        uses: actions/cache@v6
         with:
           path: ${{ steps.brew-cache.outputs.dir }}
           key: brew-${{ hashFiles('.github/workflows/ci.yml') }}
